@@ -36,7 +36,5 @@ jupyter-lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root`
 
 So far, the environment has been set up. You can go to the Jupyter Lab link pops up in the terminal.
 
-*Oct 06 notes: the most recent updates of detectron 2 creates a path issue when importing. Please review YOLO series first while I fix this issue.*
-
 Open Jupyter Notebooks you want to review in Jupyter Lab.
 ![lab](https://raw.githubusercontent.com/running-man-01/trashai_nbs/main/jlab.png)
