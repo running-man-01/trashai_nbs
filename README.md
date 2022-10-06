@@ -27,7 +27,12 @@ You **MUST** have Nvidia GPU and Nvidia Driver>=455.23 installed to enable GPU t
 
 `sudo docker run --ipc=host -it -v "$(pwd)"/workdir:/usr/src/ -p 8888:8888 ultralytics/yolov5:latest`
 
-`git clone https://github.com/running-man-01/trashai_nbs && cd trashai_nbs && jupyter-lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root`
+`git clone https://github.com/running-man-01/trashai_nbs && \
+cd trashai_nbs && \
+jupyter-lab --generate-config && \
+echo 'c.NotebookApp.allow_origin = "*"' >> /root/.jupyter/jupyter_notebook_config.py && \
+echo 'c.NotebookApp.ip = "0.0.0.0"'>> /root/.jupyter/jupyter_notebook_config.py && \
+jupyter-lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root`
 
 So far, the environment has been set up. You can go to the Jupyter Lab link pops up in the terminal.
 
