@@ -29,6 +29,7 @@ You **MUST** have Nvidia GPU and Nvidia Driver>=455.23 installed to enable GPU t
 
 `sudo docker run --ipc=host -it -v "$(pwd)"/workdir:/usr/src/ -p 8888:8888 ultralytics/yolov5:latest`
 
+Note: add `--gpus all` for multi GPU access.
 
 
 ## STEP 4. start a jupyter lab
