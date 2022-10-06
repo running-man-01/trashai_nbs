@@ -16,6 +16,5 @@ Original TACO ~1500 images, Unofficial TACO ~3500 images.
 `yolov5x_v6_multi_GPU_DDP_mode_reduced_categories.ipynb`: yolov5x v6 trained on TACO with multiple GPU, and with reduced label categories. Original TACO has 60 categories of trash, while each category belongs to a "supercategory." Here, we train with 28 supercategories to reduce total number of classes.
 
 ## Detectron 2 based models
-
-`Detectron2_Faster_RCNN.ipynb`, `Detectron2_Mask_RCNN.ipynb`, `Detectron2_RetinaNet.ipynb`: Prototypes of Faster RCNN, Mask RCNN, RetinaNet based on Detectron2.
+see https://github.com/running-man-01/trashai_nbs_d2
 
