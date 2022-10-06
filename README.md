@@ -1,4 +1,4 @@
-For detectron 2 models, see see https://github.com/running-man-01/trashai_nbs_d2
+This is a repo for YOLO based models for TrashAI. For Detectron 2 based models, see https://github.com/running-man-01/trashai_nbs_d2.
 
 ## STEP 0. Boot up machine
 
