@@ -1,4 +1,4 @@
-This is a repo for YOLO based models for TrashAI. See `ABOUT.md` for description of models. For Detectron 2 based models, see https://github.com/running-man-01/trashai_nbs_d2.
+This is a repo for YOLO based models for TrashAI. See `ABOUT.md` for description of models. </del>For Detectron 2 based models, see https://github.com/running-man-01/trashai_nbs_d2.</del> (Dec 2022 update: Detectron 2 based models deprecated).
 
 ## STEP 0. Boot up machine
 
